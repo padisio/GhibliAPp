@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav{
+  background-color: rgb(42, 42, 46);
+  color:white;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.imagenGhibli{
+  width: 100%;
+  max-width: 200px;
+}
+.cardCont{
+  background-color: rgb(51, 52, 54);
+  color:white;
+  margin-top: 25px;
+  padding: 30px;
+}
+
+.menuLink{
+  color:white;
+  padding: 10px;
+  margin-left: 10px ;
+  font-size: 1rem;
+}
+.menuLink:hover{
+  color:white;
+  background-color: rgb(86, 88, 94);
+}
+
+.menuLink:visited{
+  color: white;
+}
+
+.movieBanner{
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+  margin:0;
+  padding: 0;
+
+}
+.banner{
+
+  max-height: 200px;
+  overflow: hidden;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.tarjetaPersonaje{
+
+  
+  margin-bottom : 20px;
+  /* border: 1px solid lightgrey; */
+
+}
+.verMas{
+  color:white;
+  background-color: rgb(86, 88, 94);
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+.verMas:hover{
+  color: white;
+  background-color: rgb(128, 131, 138);
+  
+}
+
+
+
+.logo{
+  margin-left: 10px;
+}
+.coleccionImagen{
+  width: 100%;
+}
+.botonCatalogo{
+  border: none;
+  background-color: rgb(58, 58, 63);
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+.botonCatalogo:hover{
+  background-color: rgb(83, 83, 90);
+
+}
+.novedad{
+  color:red;
+  font-weight: bold;
 }
